@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="sales_order_save_commit_after">
+		<observer instance="Phpro\SalesStateEvents\Observer\Order\AfterSaveCommit"
+				  name="phpro_sales_state_events_observer_order_after_save_commit"/>
+	</event>
+	<event name="sales_order_invoice_save_commit_after">
+		<observer instance="Phpro\SalesStateEvents\Observer\Invoice\AfterSaveCommit"
+				  name="phpro_sales_state_events_observer_invoice_after_save_commit"/>
+	</event>
+	<event name="sales_order_creditmemo_save_commit_after">
+		<observer instance="Phpro\SalesStateEvents\Observer\CreditMemo\AfterSaveCommit"
+				  name="phpro_sales_state_events_observer_credit_memo_after_save_commit"/>
+	</event>
+</config>
