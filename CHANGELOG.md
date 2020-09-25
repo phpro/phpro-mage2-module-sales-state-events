@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.0] - 2020-09-25
+
+- Magento 2.4 compatibility added
+
 ## [3.0.0] - 2020-07-31
 
 ### Added
