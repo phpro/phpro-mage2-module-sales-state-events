@@ -1,6 +1,6 @@
 # Changelog
 
-## [4.0.1] - 2020-09-25
+## [4.1.0] - 2020-09-25
 
 - PHP 8.0 compatibility added
 
